@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import {Component} from 'react';
 import PropTypes from 'prop-types';
-import {addCollection} from '@iconify/react/dist/offline';
+import {addCollection} from '@iconify/react';
 
 /**
  * Iconify for Plotly Dash. Visit this site to browse all the available icons: https://icon-sets.iconify.design/

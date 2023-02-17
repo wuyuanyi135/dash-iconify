@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {defaultProps, propTypes} from '../components/DashIconify.react';
-import {Icon} from '@iconify/react/dist/offline';
+import {Icon} from '@iconify/react';
 import {omit} from 'ramda';
 
 
