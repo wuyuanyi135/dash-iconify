@@ -9,7 +9,7 @@ import {omit} from 'ramda';
  */
 export default class DashIconify extends Component {
     render() {
-        return <Icon {...omit(['setProps', 'offlineData'], this.props)} />;
+        return <Icon {...omit(['setProps'], this.props)} />;
     }
 }
 
